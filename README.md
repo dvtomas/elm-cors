@@ -10,4 +10,4 @@ This works:
  -G 'http://localhost:8080/rest/messages'
 ```
 
-but this [Elm demo](TODO) trying to do the same does not
+but this [Elm demo](https://dvtomas.github.io/elm-cors/) trying to do the same does not
