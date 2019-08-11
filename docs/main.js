@@ -6658,7 +6658,7 @@ var author$project$Main$view = function (model) {
 				_List_Nil,
 				_List_fromArray(
 					[
-						elm$html$Html$text('curl -k -i -H \'Content-Type: application/json\' -H \'x-apikey: 12745cc133246d659d53960af2463940e69d7\' -G \'http://localhost:8080/rest/messages\' ')
+						elm$html$Html$text('curl -k -i -H \'Content-Type: application/json\' -H \'x-apikey: 12745cc133246d659d53960af2463940e69d7\' -G \'https://fffuuu-c42f.restdb.io/rest/messages\'')
 					]))
 			]));
 };
