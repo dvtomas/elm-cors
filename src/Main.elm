@@ -98,7 +98,7 @@ view model =
         , br [] []
         , text "The following curl expression works and retrieves the messages"
         , br [] []
-        , code [] [ text "curl -k -i -H 'Content-Type: application/json' -H 'x-apikey: 12745cc133246d659d53960af2463940e69d7' -G 'http://localhost:8080/rest/messages' " ]
+        , code [] [ text "curl -k -i -H 'Content-Type: application/json' -H 'x-apikey: 12745cc133246d659d53960af2463940e69d7' -G 'https://fffuuu-c42f.restdb.io/rest/messages'" ]
         ]
 
 
