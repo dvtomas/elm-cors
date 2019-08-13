@@ -98,7 +98,7 @@ view model =
         , br [] []
         , text "The following curl expression works and retrieves the messages"
         , br [] []
-        , code [] [ text "curl -k -i -H 'Content-Type: application/json' -H 'x-apikey: 12745cc133246d659d53960af2463940e69d7' -G 'https://fffuuu-c42f.restdb.io/rest/messages'" ]
+        , code [] [ text "curl -k -i -H 'Content-Type: application/json' -H 'x-apikey: 5d4edcc758a35b31adeba6a8' -G 'https://fffuuu-c42f.restdb.io/rest/messages'" ]
         ]
 
 
@@ -116,7 +116,7 @@ subscriptions _ =
 
 
 apiKeyHeader =
-    Http.header "x-apikey" "12745cc133246d659d53960af2463940e69d7"
+    Http.header "x-apikey" "5d4edcc758a35b31adeba6a8"
 
 
 messageApiUrl =

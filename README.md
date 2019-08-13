@@ -6,7 +6,7 @@ This works:
 
 ```
  curl -k -i -H "Content-Type: application/json"\
- -H "x-apikey: 12745cc133246d659d53960af2463940e69d7"\
+ -H "x-apikey: 5d4edcc758a35b31adeba6a8"\
  -G 'https://fffuuu-c42f.restdb.io/rest/messages'
 ```
 

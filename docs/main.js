@@ -5044,7 +5044,7 @@ var elm$http$Http$Header = F2(
 		return {$: 'Header', a: a, b: b};
 	});
 var elm$http$Http$header = elm$http$Http$Header;
-var author$project$Main$apiKeyHeader = A2(elm$http$Http$header, 'x-apikey', '12745cc133246d659d53960af2463940e69d7');
+var author$project$Main$apiKeyHeader = A2(elm$http$Http$header, 'x-apikey', '5d4edcc758a35b31adeba6a8');
 var author$project$Main$Message = F4(
 	function (username, timestamp, topic, message) {
 		return {message: message, timestamp: timestamp, topic: topic, username: username};
@@ -6658,7 +6658,7 @@ var author$project$Main$view = function (model) {
 				_List_Nil,
 				_List_fromArray(
 					[
-						elm$html$Html$text('curl -k -i -H \'Content-Type: application/json\' -H \'x-apikey: 12745cc133246d659d53960af2463940e69d7\' -G \'https://fffuuu-c42f.restdb.io/rest/messages\'')
+						elm$html$Html$text('curl -k -i -H \'Content-Type: application/json\' -H \'x-apikey: 5d4edcc758a35b31adeba6a8\' -G \'https://fffuuu-c42f.restdb.io/rest/messages\'')
 					]))
 			]));
 };
